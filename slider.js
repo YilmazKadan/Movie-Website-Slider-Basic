@@ -16,7 +16,7 @@ function image_copy_add(){
 }
 image_copy_add();
 function previous_function(){
-	if (left != 0) {
+	if (left < 0) {
 		left = left + 320;
 		image_div.style.left = left + "px";
 	}
